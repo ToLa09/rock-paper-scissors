@@ -1,0 +1,41 @@
+html {
+    font-family: Arial, Helvetica, sans-serif ;
+}
+img {
+    max-width: 100px;
+}
+button {        
+    width: 20%;
+    height: auto; 
+    margin: 20px;
+    padding: 15% 5%;
+    background-origin: padding-box;  
+    background-size: cover;
+    border-width: 3px;
+    border-radius: 20px;
+    box-shadow: 10px 10px grey;     
+}
+button:hover {
+    border-color: orange;
+    box-shadow: 10px 10px orange;
+}
+.buttons {
+    display: flex;    
+    padding: 20px;
+    justify-content: space-around;    
+}
+.output {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btnRock {
+    background-image: url(images/rock-icon3.png);
+}
+#btnPaper {
+    background-image: url(images/paper-icon.png);
+}
+#btnScissors {
+    background-image: url(images/scissors-icon2.png);
+}
